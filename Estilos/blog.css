@@ -43,9 +43,36 @@ header li {
 
 #Contato li {
     display: inline-block;
-    margin: 1em;
-
 }
+
+#Contato li a {
+    display: inline-block;
+    margin: 1em;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+}
+
+#Contato .email {
+    background-image: url("../Imagens/email.png");
+}
+
+#Contato .face {
+    background-image: url("../Imagens/fic.png");
+}
+
+#Contato .twitter {
+    background-image: url("../Imagens/twitter.png");
+}
+
+#Contato .github {
+    background-image: url("../Imagens/github.png");
+}
+
+#Contato .linkedin {
+    background-image: url("../Imagens/linkedin.png");
+}
+
 .container {
     padding-left: 10%;
     padding-right: 10%;
@@ -93,6 +120,10 @@ header li a {
     color: #FCFCFD;
 }
 
+.projetos-header h3{
+    margin-top: 1em;
+}
+
 .claras {
     background-color: #FCFCFD;
     color: #2B313E;
@@ -101,6 +132,7 @@ header li a {
 
 .projetos-header {
     float: left;
+    width: 30%;
 }
 
 .styleprojetos {
