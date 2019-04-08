@@ -27,18 +27,20 @@ header {
 
 header ul {
     text-align: right;
+    
 }
 
 header li a {
     color: #99A0B0;
     font-weight: lighter;
     text-transform: uppercase;
+    
 }
 
 header li {
     display: inline-block;
     margin-left: 3em;
-
+    
 }
 
 #Contato li {
@@ -84,16 +86,20 @@ section {
     text-align: center;
 }
 
-.identificacao {
-    background-color: #579FF0;
-    color: #FCFCFD;
-    padding: 10em 2em 7em;
 
+.identificacao {
+    background-color: #f8bdc6;
+    color: #FCFCFD;
+    padding: 4em 5em 1.5em;
+    border-width: medium;
+    border-style: solid;
+    border-color: #FF1493;
 }
 
 .identificacao h1 {
     font-size: 2.5em;
     margin-bottom: 0.7em;
+    
 }
 
 .identificacao h2 {
@@ -102,10 +108,9 @@ section {
 
 }
 
-
 section h3 {
     font-size: 1.7em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.8em;
 
 }
 
@@ -133,6 +138,14 @@ header li a {
 .projetos-header {
     float: left;
     width: 30%;
+    
+}
+
+.musica {
+    width: 1px;
+    height: 1px;
+    margin-left: 2.8%;
+    
 }
 
 .styleprojetos {
@@ -141,51 +154,70 @@ header li a {
 }
 
 .styleprojetos li{
-    background-color:#6F768B;
+    background-color: #F0E68C;
     padding: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
+    border-width: medium;
+    border-style: solid;
+    border-color: #FF1493;
+
 }
 
 .styleprojetos li a {
     color:#FFF;
     font-size: 1.3em;
+    color: #2B313E;
 
 }
 
 .styleprojetos li p {
     color: #FFF;
     margin-top: 0.5em;
-    text-align: justify;
+    text-align: center;
     line-height: 1.2;
+    color: #2B313E
 }
 
 #Sobre p.text {
     margin: 1em;
     width: 50%;
-    text-align: justify;
+    text-align: center;
     line-height: 1.4em;
+    font-weight: bold;
 
 }
 #Sobre p.Nome {
-    color: #579FF0;
+    color: #2B313E;
     font-size: 1.5em;
     margin: 1em;
     width: 50%;
+    font-weight: bold;
 }
 
 #Sobre {
     position: relative;
+    background-color: #f8bdc6;
+    border-width: medium;
+    border-style: solid;
+    border-color: #FF1493;
 
 }
 
 #Sobre img {
-    width: 200px;
+    width: 195px;
     position: absolute;
-    top: 2.5em;
+    top: 0em;
     right: 10%;
 }
 
+#Projetos {
+    background-image: url("../Imagens/fundo.jpg");
+    background-size: cover;
+}
+
+#P
 footer {
     padding-top: 1em;
     padding-bottom: 1em;
+    text-align: center;
 }
