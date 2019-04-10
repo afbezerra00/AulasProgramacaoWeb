@@ -43,6 +43,11 @@ header li {
     
 }
 
+#Contato {
+    background-image: url("../Imagens/fundo.jpg");
+    background-size: cover;
+}
+
 #Contato li {
     display: inline-block;
 }
@@ -94,6 +99,8 @@ section {
     border-width: medium;
     border-style: solid;
     border-color: #FF1493;
+    font-family: Futura Bk BT;
+
 }
 
 .identificacao h1 {
@@ -111,6 +118,7 @@ section {
 section h3 {
     font-size: 1.7em;
     margin-bottom: 0.8em;
+    font-family: Futura Bk BT;
 
 }
 
@@ -150,6 +158,7 @@ header li a {
 
 .styleprojetos {
     margin-left: 40%;
+    font-family: Futura Bk BT;
 
 }
 
@@ -200,6 +209,7 @@ header li a {
     border-width: medium;
     border-style: solid;
     border-color: #FF1493;
+    font-family: Futura Bk BT;
 
 }
 
@@ -215,9 +225,14 @@ header li a {
     background-size: cover;
 }
 
-#P
+#Relógio {
+    width: 100%;
+    height: 2em;
+}
+
 footer {
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     text-align: center;
+    font-family: Futura Bk BT;
 }
