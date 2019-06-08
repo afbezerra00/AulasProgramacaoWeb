@@ -31,9 +31,7 @@ if(isset($_GET['editar'])){
    $id = $_GET['editar'];
    $resultado = $conexao->query("SELECT * FROM usuario WHERE id=$id") or die($conexao->error);
 
-   $conexao->query("DELETE FROM usuario WHERE id=$id") or die($conexao->error);
-
-   if(count($resultado) == 1) {
+   if(@count($resultado) == 1) {
       $row = $resultado->fetch_array();
       $usuario = $row['usuario'];
       $senha = $row['senha'];
